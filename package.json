@@ -1,0 +1,28 @@
+{
+  "name": "eslint-config-colisweb",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "ESLint configuration for colisweb",
+  "author": "Simon Degraeve <simon@colisweb.com>",
+  "keywords": ["colisweb", "eslint"],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/colisweb/eslint-config-colisweb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/colisweb/eslint-config-colisweb/issues"
+  },
+  "homepage": "https://github.com/colisweb/eslint-config-colisweb#readme",
+  "dependencies": {
+    "eslint-config-standard": "^10.2.1",
+    "eslint-config-standard-react": "^5.0.0",
+    "eslint-plugin-flowtype": "^2.34.1",
+    "eslint-plugin-import": "^2.6.1",
+    "eslint-plugin-node": "^5.1.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^7.1.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "prettier-eslint-cli": "^4.1.1"
+  },
+  "bin": { "cwformat": "./cli.sh" }
+}
