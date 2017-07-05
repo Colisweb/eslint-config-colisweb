@@ -4,7 +4,10 @@
   "license": "MIT",
   "description": "ESLint configuration for colisweb",
   "author": "Simon Degraeve <simon@colisweb.com>",
-  "keywords": ["colisweb", "eslint"],
+  "keywords": [
+    "colisweb",
+    "eslint"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/colisweb/eslint-config-colisweb.git"
@@ -24,5 +27,16 @@
     "eslint-plugin-standard": "^3.0.1",
     "prettier-eslint-cli": "^4.1.1"
   },
-  "bin": { "cwformat": "./cli.sh" }
+  "bin": {
+    "cwformat": "./cli.sh"
+  },
+  "scripts": {
+    "lint": "./cli.sh index.js",
+    "test": "echo \"No tests configured.\"",
+    "build": "echo \"No build steps configured.\"",
+    "release": "cwtools release"
+  },
+  "devDependencies": {
+    "cwtools": "^1.0.3"
+  }
 }
