@@ -8,7 +8,7 @@
 [![Dependency Status][gemnasium-img]][gemnasium-link]
 
 ```sh
-yarn install eslint-config-colisweb
+npm install eslint-config-colisweb
 ```
 
 [npm-img]: https://img.shields.io/npm/v/eslint-config-colisweb.svg?style=flat-square
