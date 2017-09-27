@@ -13,4 +13,4 @@ then
     CLI_PATH="prettier-eslint"
 fi
 
-$CLI_PATH "$SRC_PATH" --write --no-semi --single-quote --print-width 100 --trailing-comma none
+$CLI_PATH "$SRC_PATH" --write --no-semi --single-quote --print-width 120 --trailing-comma none
