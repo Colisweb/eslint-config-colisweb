@@ -13,7 +13,7 @@ module.exports = {
   },
   rules: {
     camelcase: 'off',
-    'max-len': ['error', { code: 100 }],
+    'max-len': ['error', { code: 120 }],
     semi: ['error', 'never'],
     quotes: ['error', 'single'],
     'jsx-quotes': ['error', 'prefer-double'],
