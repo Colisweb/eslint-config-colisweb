@@ -1,10 +1,13 @@
 {
   "name": "eslint-config-colisweb",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "MIT",
   "description": "ESLint configuration for colisweb",
   "author": "Simon Degraeve <simon@colisweb.com>",
-  "keywords": ["colisweb", "eslint"],
+  "keywords": [
+    "colisweb",
+    "eslint"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/colisweb/eslint-config-colisweb.git"
