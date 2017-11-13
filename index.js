@@ -12,6 +12,15 @@ module.exports = {
     node: true
   },
   rules: {
+    'generator-star-spacing': ['error', { before: false, after: true }],
+    'space-before-function-paren': [
+      'error',
+      {
+        anonymous: 'never',
+        named: 'never',
+        asyncArrow: 'always'
+      }
+    ],
     camelcase: 'off',
     'max-len': ['error', { code: 120, ignoreStrings: true }],
     semi: ['error', 'never'],
