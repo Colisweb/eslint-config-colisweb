@@ -4,7 +4,10 @@
   "license": "MIT",
   "description": "ESLint configuration for colisweb",
   "author": "Simon Degraeve <simon@colisweb.com>",
-  "keywords": ["colisweb", "eslint"],
+  "keywords": [
+    "colisweb",
+    "eslint"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/colisweb/eslint-config-colisweb.git"
@@ -14,6 +17,7 @@
   },
   "homepage": "https://github.com/colisweb/eslint-config-colisweb#readme",
   "dependencies": {
+    "eslint": "^3.19.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-config-standard-react": "^5.0.0",
     "eslint-plugin-flowtype": "^2.39.1",
