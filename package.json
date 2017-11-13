@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-colisweb",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "license": "MIT",
   "description": "ESLint configuration for colisweb",
   "author": "Simon Degraeve <simon@colisweb.com>",
