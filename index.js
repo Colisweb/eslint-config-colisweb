@@ -4,6 +4,7 @@
 module.exports = {
   extends: ['standard', 'standard-react', 'plugin:flowtype/recommended'],
   plugins: ['flowtype'],
+  parser: 'babel-eslint',
   env: {
     browser: true,
     commonjs: true,
