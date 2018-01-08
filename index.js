@@ -23,7 +23,17 @@ module.exports = {
       }
     ],
     camelcase: 'off',
-    'max-len': ['error', { code: 120, ignoreStrings: true }],
+    'max-len': [
+      'error',
+      {
+        code: 120,
+        ignoreStrings: true,
+        ignoreTemplateLiterals: true,
+        ignoreComments: true,
+        ignoreUrls: true,
+        ignoreTrailingComments: true
+      }
+    ],
     semi: ['error', 'never'],
     quotes: ['error', 'single'],
     'jsx-quotes': ['error', 'prefer-double'],
