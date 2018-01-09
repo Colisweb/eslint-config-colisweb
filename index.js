@@ -8,6 +8,8 @@ module.exports = {
   env: {
     browser: true,
     commonjs: true,
+    test: true,
+    test2: true,
     es6: true,
     jest: true,
     node: true
