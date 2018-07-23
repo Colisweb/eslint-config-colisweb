@@ -37,6 +37,7 @@ module.exports = {
     semi: ['error', 'never'],
     quotes: ['error', 'single'],
     'jsx-quotes': ['error', 'prefer-double'],
-    'flowtype/semi': ['error', 'never']
+    'flowtype/semi': ['error', 'never'],
+    'react/no-unused-prop-types': 'off'
   }
 }
