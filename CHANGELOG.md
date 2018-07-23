@@ -1,3 +1,9 @@
+<a name="1.1.3"></a>
+## [1.1.3](https://github.com/colisweb/eslint-config-colisweb/compare/v1.1.2...v1.1.3)
+> 2018-07-23
+
+* [a6cf289](https://github.com/colisweb/eslint-config-colisweb/commit/a6cf289) **Dependency:** Upgrade dependencies
+
 <a name="1.0.2"></a>
 ## [1.0.2](https://github.com/colisweb/eslint-config-colisweb/compare/v1.0.1...v1.0.2)
 > 2017-08-09
