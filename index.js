@@ -10,7 +10,7 @@ module.exports = {
     commonjs: true,
     es6: true,
     jest: true,
-    node: true
+    node: true,
   },
   rules: {
     'generator-star-spacing': ['error', { before: false, after: true }],
@@ -19,8 +19,8 @@ module.exports = {
       {
         anonymous: 'never',
         named: 'never',
-        asyncArrow: 'always'
-      }
+        asyncArrow: 'always',
+      },
     ],
     camelcase: 'off',
     'max-len': [
@@ -31,13 +31,13 @@ module.exports = {
         ignoreTemplateLiterals: true,
         ignoreComments: true,
         ignoreUrls: true,
-        ignoreTrailingComments: true
-      }
+        ignoreTrailingComments: true,
+      },
     ],
+    'comma-dangle': ['error', 'always-multiline'],
     semi: ['error', 'never'],
     quotes: ['error', 'single'],
     'jsx-quotes': ['error', 'prefer-double'],
     'flowtype/semi': ['error', 'never'],
-    'react/no-unused-prop-types': 'off'
-  }
+  },
 }
