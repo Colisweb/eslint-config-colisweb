@@ -1,3 +1,10 @@
+<a name="1.2.0"></a>
+## [1.2.0](https://github.com/colisweb/eslint-config-colisweb/compare/v1.1.3...v1.2.0)
+> 2018-11-19
+
+* [9268ecf](https://github.com/colisweb/eslint-config-colisweb/commit/9268ecf) **Dependency:** Upgrade dependencies
+* [05f7bf7](https://github.com/colisweb/eslint-config-colisweb/commit/05f7bf7) **Feature:** Allow trailing comma and arrow function parenthesis
+
 <a name="1.1.3"></a>
 ## [1.1.3](https://github.com/colisweb/eslint-config-colisweb/compare/v1.1.2...v1.1.3)
 > 2018-07-23
