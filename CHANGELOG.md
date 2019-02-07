@@ -1,3 +1,9 @@
+<a name="1.3.0"></a>
+## [1.3.0](https://github.com/colisweb/eslint-config-colisweb/compare/v1.2.0...v1.3.0)
+> 2019-02-07
+
+* [8282e4e](https://github.com/colisweb/eslint-config-colisweb/commit/8282e4e) **Feature:** Support react hooks
+
 <a name="1.2.0"></a>
 ## [1.2.0](https://github.com/colisweb/eslint-config-colisweb/compare/v1.1.3...v1.2.0)
 > 2018-11-19
