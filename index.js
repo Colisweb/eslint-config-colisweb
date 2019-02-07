@@ -2,7 +2,7 @@
  *
  */
 module.exports = {
-  extends: ['standard', 'standard-react', 'plugin:flowtype/recommended'],
+  extends: ['standard', 'standard-react', 'plugin:flowtype/recommended', 'react-hooks'],
   plugins: ['flowtype'],
   parser: 'babel-eslint',
   env: {
@@ -13,6 +13,7 @@ module.exports = {
     node: true,
   },
   rules: {
+    'react-hooks/rules-of-hooks': 'error',
     'generator-star-spacing': ['error', { before: false, after: true }],
     'space-before-function-paren': [
       'error',
