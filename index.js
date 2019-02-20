@@ -2,8 +2,8 @@
  *
  */
 module.exports = {
-  extends: ['standard', 'standard-react', 'plugin:flowtype/recommended'],
-  plugins: ['flowtype', 'react-hooks'],
+  extends: ['standard', 'standard-react', 'react-app', 'plugin:jsx-a11y/recommended', 'plugin:flowtype/recommended'],
+  plugins: ['flowtype', 'react-hooks', 'jsx-a11y'],
   parser: 'babel-eslint',
   env: {
     browser: true,
