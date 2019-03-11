@@ -1,3 +1,9 @@
+<a name="1.4.0"></a>
+## [1.4.0](https://github.com/colisweb/eslint-config-colisweb/compare/v1.3.2...v1.4.0)
+> 2019-03-11
+
+* [2133351](https://github.com/colisweb/eslint-config-colisweb/commit/2133351) **Feature:** Add "react-hooks/exhaustive-deps" rule
+
 <a name="1.3.0"></a>
 ## [1.3.0](https://github.com/colisweb/eslint-config-colisweb/compare/v1.2.0...v1.3.0)
 > 2019-02-07
