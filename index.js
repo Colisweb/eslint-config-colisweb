@@ -2,9 +2,6 @@
  *
  */
 module.exports = {
-  extends: ['standard', 'standard-react', 'react-app', 'plugin:jsx-a11y/recommended', 'plugin:flowtype/recommended'],
-  plugins: ['flowtype', 'react-hooks', 'jsx-a11y'],
-  parser: 'babel-eslint',
   env: {
     browser: true,
     commonjs: true,
@@ -12,33 +9,37 @@ module.exports = {
     jest: true,
     node: true,
   },
+  extends: ['standard', 'standard-react', 'react-app', 'plugin:jsx-a11y/recommended', 'plugin:flowtype/recommended'],
+  parser: 'babel-eslint',
+  plugins: ['flowtype', 'react-hooks', 'jsx-a11y'],
   rules: {
-    'react-hooks/rules-of-hooks': 'error',
-    'generator-star-spacing': ['error', { before: false, after: true }],
-    'space-before-function-paren': [
-      'error',
-      {
-        anonymous: 'never',
-        named: 'never',
-        asyncArrow: 'always',
-      },
-    ],
-    camelcase: 'off',
+    'comma-dangle': ['error', 'always-multiline'],
+    'flowtype/semi': ['error', 'never'],
+    'generator-star-spacing': ['error', { after: true, before: false }],
+    'jsx-quotes': ['error', 'prefer-double'],
     'max-len': [
       'error',
       {
         code: 120,
+        ignoreComments: true,
         ignoreStrings: true,
         ignoreTemplateLiterals: true,
-        ignoreComments: true,
-        ignoreUrls: true,
         ignoreTrailingComments: true,
+        ignoreUrls: true,
       },
     ],
-    'comma-dangle': ['error', 'always-multiline'],
-    semi: ['error', 'never'],
+    'react-hooks/exhaustive-deps': 'warn',
+    'react-hooks/rules-of-hooks': 'error',
+    'space-before-function-paren': [
+      'error',
+      {
+        anonymous: 'never',
+        asyncArrow: 'always',
+        named: 'never',
+      },
+    ],
+    camelcase: 'off',
     quotes: ['error', 'single'],
-    'jsx-quotes': ['error', 'prefer-double'],
-    'flowtype/semi': ['error', 'never'],
+    semi: ['error', 'never'],
   },
 }
